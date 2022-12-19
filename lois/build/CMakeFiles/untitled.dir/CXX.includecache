@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fintarin/Projects/lois/src/fuzzy_set_types.h
+set
+-
+stdexcept
+-
+vector
+-
+
+/home/fintarin/Projects/lois/src/main.cpp
+fstream
+-
+iostream
+-
+fuzzy_set_types.h
+/home/fintarin/Projects/lois/src/fuzzy_set_types.h
+
